@@ -1,0 +1,21 @@
+# Test environment
+top_srcdir='/home/ubuntu/BookReview/ImageMagick-6.9.3-2'
+top_builddir='/home/ubuntu/BookReview/ImageMagick-6.9.3-2'
+
+set -a
+COMPARE="/home/ubuntu/BookReview/ImageMagick-6.9.3-2/utilities/compare"
+COMPOSITE="/home/ubuntu/BookReview/ImageMagick-6.9.3-2/utilities/composite"
+CONJURE="/home/ubuntu/BookReview/ImageMagick-6.9.3-2/utilities/conjure"
+CONVERT="/home/ubuntu/BookReview/ImageMagick-6.9.3-2/utilities/convert"
+DISPLAY="/home/ubuntu/BookReview/ImageMagick-6.9.3-2/utilities/display"
+IDENTIFY="/home/ubuntu/BookReview/ImageMagick-6.9.3-2/utilities/identify"
+MONTAGE="/home/ubuntu/BookReview/ImageMagick-6.9.3-2/utilities/montage" 
+VALIDATE="/home/ubuntu/BookReview/ImageMagick-6.9.3-2/tests/validate"
+DRAWTEST="/home/ubuntu/BookReview/ImageMagick-6.9.3-2/tests/drawtest"
+WANDTEST="/home/ubuntu/BookReview/ImageMagick-6.9.3-2/tests/wandtest"
+LD_LIBRARY_PATH="/home/ubuntu/BookReview/ImageMagick-6.9.3-2/magick/.libs:${LD_LIBRARY_PATH}"
+MAGICK_CODER_MODULE_PATH="/home/ubuntu/BookReview/ImageMagick-6.9.3-2/coders"
+MAGICK_CONFIGURE_PATH="/home/ubuntu/BookReview/ImageMagick-6.9.3-2/config:/home/ubuntu/BookReview/ImageMagick-6.9.3-2/config"
+MAGICK_FILTER_MODULE_PATH="/home/ubuntu/BookReview/ImageMagick-6.9.3-2/filters"
+PATH="/home/ubuntu/BookReview/ImageMagick-6.9.3-2/utilities:/home/ubuntu/BookReview/ImageMagick-6.9.3-2/tests:${PATH}"
+set +a
